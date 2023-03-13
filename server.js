@@ -13,13 +13,7 @@ server.use(cors());
 // Set up a domainList and check against it:
 const domainList = ["http://localhost:3000", "https://alanaflix.vercel.app/"];
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (domainList.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: domainList,
 };
 // Then pass them to cors:
 server.use(cors(corsOptions));
