@@ -2,6 +2,26 @@ const jsonServer = require("json-server");
 const clone = require("clone");
 const data = require("./db.json");
 
+// --------CORS--------
+// Import the library:
+const cors = require("cors");
+// Then use it before your routes are set up:
+server.use(cors());
+// Set up a domainList and check against it:
+const domainList = ["http://localhost:3000", "https://alanaflix.vercel.app/"];
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (domainList.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+};
+// Then pass them to cors:
+server.use(cors(corsOptions));
+// ----------------
+
 const isProductionEnv = process.env.NODE_ENV === "production";
 const server = jsonServer.create();
 
@@ -20,10 +40,6 @@ server.listen(port, () => {
 });
 
 server.use((req, _, next) => {
-  res.header("Access-Control-Allow-Origin", [
-    "http://localhost:3000",
-    "https://alanaflix.vercel.app/",
-  ]);
   if (req.path !== "/") router.db.setState(clone(data));
   next();
 });
@@ -31,5 +47,6 @@ server.use((req, _, next) => {
 // Export the Server API
 module.exports = server;
 
-// reference:
+// references:
 // https://javascript.plainenglish.io/how-to-set-up-deploy-fake-rest-api-server-using-json-server-24e26dc1d120
+// https://stackoverflow.com/a/70911988
