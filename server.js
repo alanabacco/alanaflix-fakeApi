@@ -20,6 +20,7 @@ server.listen(port, () => {
 });
 
 server.use((req, _, next) => {
+  res.header("Access-Control-Allow-Headers", "*");
   if (req.path !== "/") router.db.setState(clone(data));
   next();
 });
