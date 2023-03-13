@@ -20,7 +20,10 @@ server.listen(port, () => {
 });
 
 server.use((req, _, next) => {
-  res.header("Access-Control-Allow-Headers", "*");
+  res.header("Access-Control-Allow-Origin", [
+    "http://localhost:3000",
+    "https://alanaflix.vercel.app/",
+  ]);
   if (req.path !== "/") router.db.setState(clone(data));
   next();
 });
