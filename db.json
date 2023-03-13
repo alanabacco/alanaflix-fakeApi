@@ -1,0 +1,350 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Estudos",
+      "cor": "red",
+      "link_extra": {
+        "text": "Alura",
+        "url": "https://www.alura.com.br"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Séries",
+      "cor": "orange"
+    },
+    {
+      "id": 3,
+      "titulo": "Filmes",
+      "cor": "yellow"
+    },
+    {
+      "id": 4,
+      "titulo": "Jogos",
+      "cor": "green"
+    },
+    {
+      "id": 5,
+      "titulo": "Músicas",
+      "cor": "blue"
+    },
+    {
+      "id": 6,
+      "titulo": "DREAMCATCHER",
+      "cor": "purple",
+      "link_extra": {
+        "text": "DREAMCATCHER",
+        "url": "https://www.youtube.com/@Dreamcatcherofficial"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Imersão React Live #01 - Analisando o front-end do Netflix, do Spotify e do Ifood",
+      "url": "https://www.youtube.com/watch?v=Dcn-tVmSxyU"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Imersão GameDev Live #2",
+      "url": "https://www.youtube.com/watch?v=vmN3lBVhu74"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Curso de Python 3 - Mundo 1: Fundamentos",
+      "url": "http://youtube.com/watch?v=Mp0vhMDI7fA&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Entenda as diferenças de Git, GitHub e GitLab",
+      "url": "https://www.youtube.com/watch?v=_i9DUJcn-mU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Como organizar um cronograma de estudos de programação com Notion? - Root #19",
+      "url": "https://www.youtube.com/watch?v=DemagUML778"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Season 1 Trailer | SHE-RA AND THE PRINCESSES OF POWER",
+      "url": "https://www.youtube.com/watch?v=GsGMkAWB6lY"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Wynonna Earp | Trailer Exclusivo | Globoplay",
+      "url": "https://www.youtube.com/watch?v=mXJH9PwZKiQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Warrior Nun: Season 2 | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=acdP-NzBhjs"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "BROOKLYN NINE-NINE - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=sEOuJ4z5aTc"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "3% | Trailer Oficial - Netflix [HD]",
+      "url": "https://www.youtube.com/watch?v=LR5vVv2RDLw"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "One Day at a Time Trailer Oficial Netflix HD",
+      "url": "https://www.youtube.com/watch?v=4DF4ad1nWgg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Cidade Invisível | Trailer oficial | Netflix Brasil",
+      "url": "https://www.youtube.com/watch?v=GodwQKNXIYk"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Warrior Nun Season 1 Trailer | Rotten Tomatoes TV",
+      "url": "https://www.youtube.com/watch?v=iEoQKHSfcwc"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Atypical | Trailer oficial | Netflix",
+      "url": "https://www.youtube.com/watch?v=mw6EPR6sNS0"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Um Crime para Dois | Trailer oficial | Netflix Brasil",
+      "url": "https://www.youtube.com/watch?v=msvHbCb1cB4"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "The Matrix (1999) Official Trailer #1 - Sci-Fi Action Movie",
+      "url": "https://www.youtube.com/watch?v=vKQi3bBA1y8"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "The Mitchells vs. The Machines | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=_ak5dFt8Ar0"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "FEAR STREET | A Film Trilogy Event | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=UyUuzCGblqc"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "A Quiet Place (2018) - Official Trailer - Paramount Pictures",
+      "url": "https://www.youtube.com/watch?v=WR7cc5t7tv8"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Em busca da casa automática #1? - Minecraft Aventura",
+      "url": "https://www.youtube.com/watch?v=aWzKb071D9o"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Início de um grande Mini-Game! - Craft Games 01",
+      "url": "https://www.youtube.com/watch?v=RujG_SVwFSY"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "NOVA SÉRIE DO CANAL! - Minecraft Dragões!",
+      "url": "https://www.youtube.com/watch?v=M49T3V7fnCc"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "VALORANT Champions Istanbul 2022: Jogos Completos",
+      "url": "https://www.youtube.com/watch?v=Kz8ysvbFY3o&list=PLxQOhoQxUY0l6_DXNn-zz5JzGLKUas9Eo"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Minecraft Betweenlands #1: COMECEI A SÉRIE TENDO UMA IDEIA GENIAL!",
+      "url": "https://www.youtube.com/watch?v=FADU_JA6Mws&list=PLtZBoAYwtOdbXSMl--qcTTSeHFe88o72-"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "CONHEÇAM O MEU NOVO EMPREGO! HOUSE FLIPPER #1",
+      "url": "https://www.youtube.com/watch?v=uG8wXLxlTFo&list=PL7oQLgVWZD-2gBf9heKxEvwGb8t7BzbGb"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "LARGUEI TUDO E FUI PRA FAZENDA - Stardew Valley",
+      "url": "https://www.youtube.com/watch?v=Yc2L9s7B9Qg&list=PL7oQLgVWZD-1NYloUdCWUB-mo1qJt9kU6&index=1"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Zedd, Alessia Cara - Stay (Lyric Video)",
+      "url": "https://www.youtube.com/watch?v=h--P8HzYZ74"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Clean Bandit - Rather Be ft. Jess Glynne [Official Video]",
+      "url": "https://www.youtube.com/watch?v=m-M1AtrxztU"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Marshmello & Anne-Marie - FRIENDS (Music Video) *OFFICIAL FRIENDZONE ANTHEM*",
+      "url": "https://www.youtube.com/watch?v=jzD_yyEcp0M"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Pabllo Vittar - K.O. (Videoclipe Oficial)",
+      "url": "https://www.youtube.com/watch?v=3L5D8by1AtI"
+    },
+    {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "Johnny Hooker (part. Liniker) - Flutua (CLIPE OFICIAL)",
+      "url": "https://www.youtube.com/watch?v=mYQd7HsvVtI"
+    },
+    {
+      "titulo": "TESTAR PÁGINA DE ERRO - JOGUINHO DA IMERSÃO ALURA",
+      "url": "youtube.com/teste/teste",
+      "categoriaId": 5,
+      "id": 33
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "Lauv - I Like Me Better [Official Audio]",
+      "url": "https://www.youtube.com/watch?v=a7fzkqLozwA"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'VISION' MV",
+      "url": "https://www.youtube.com/watch?v=jKrJBVLnRiM"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'MAISON' MV",
+      "url": "https://www.youtube.com/watch?v=z4t9LLq1Nk0"
+    },
+    {
+      "id": 37,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'BEcause' MV",
+      "url": "https://www.youtube.com/watch?v=PEKkdIT8JPM"
+    },
+    {
+      "id": 38,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'Odd Eye' MV",
+      "url": "https://www.youtube.com/watch?v=1QD0FeZyDtQ"
+    },
+    {
+      "id": 39,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'BOCA' MV",
+      "url": "https://www.youtube.com/watch?v=MZ4JGye4dQU"
+    },
+    {
+      "id": 40,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'R.o.S.E BLUE' MV",
+      "url": "https://www.youtube.com/watch?v=Lja79dlQiZI"
+    },
+    {
+      "id": 41,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher (드림캐쳐) - 'Scream' MV",
+      "url": "https://www.youtube.com/watch?v=FKlGHHhTOsQ"
+    },
+    {
+      "id": 42,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher (드림캐쳐) 'Deja Vu' MV",
+      "url": "https://www.youtube.com/watch?v=W761DtH1oRg"
+    },
+    {
+      "id": 43,
+      "categoriaId": 6,
+      "titulo": "[MV] DREAMCATCHER「Breaking Out」(1st Japan AL「The Beginning Of The End」)",
+      "url": "https://www.youtube.com/watch?v=SHmOpFbFgrM"
+    },
+    {
+      "id": 44,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher (드림캐쳐) 'PIRI' (피리) MV",
+      "url": "https://www.youtube.com/watch?v=Pq_mbTSR-a0"
+    },
+    {
+      "id": 45,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'What' MV",
+      "url": "https://www.youtube.com/watch?v=pN0dkjp1deQ"
+    },
+    {
+      "id": 46,
+      "categoriaId": 6,
+      "titulo": "[MV] Dreamcatcher(드림캐쳐)_YOU AND I",
+      "url": "https://www.youtube.com/watch?v=I5_BQAtwHws"
+    },
+    {
+      "id": 47,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) '날아올라 (Fly high)' MV",
+      "url": "https://www.youtube.com/watch?v=39yeTdIuKJU"
+    },
+    {
+      "id": 48,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) 'GOOD NIGHT' MV",
+      "url": "https://www.youtube.com/watch?v=Lxfl8LRab_I"
+    },
+    {
+      "id": 49,
+      "categoriaId": 6,
+      "titulo": "Dreamcatcher(드림캐쳐) _ Chase Me MV",
+      "url": "https://www.youtube.com/watch?v=zihoyz0u_cs"
+    },
+    {
+      "id": 50,
+      "categoriaId": 2,
+      "titulo": "Arcane | Trailer oficial | Netflix",
+      "url": "https://www.youtube.com/watch?v=3MB3OK3Xnvs"
+    },
+    {
+      "id": 51,
+      "categoriaId": 2,
+      "titulo": "First Kill | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=D4wJK4C_nZY"
+    }
+  ]
+}

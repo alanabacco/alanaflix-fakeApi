@@ -1,0 +1,19 @@
+{
+  "name": "alanaflix-fakeapi",
+  "version": "1.0.0",
+  "description": "fake api server pra aplicação alanaflix",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "watch": "json-server db.json --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/alanabacco",
+  "license": "MIT",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "json-server": "^0.17.2"
+  }
+}
