@@ -2,6 +2,9 @@ const jsonServer = require("json-server");
 const clone = require("clone");
 const data = require("./db.json");
 
+const isProductionEnv = process.env.NODE_ENV === "production";
+const server = jsonServer.create();
+
 // --------CORS--------
 // Import the library:
 const cors = require("cors");
@@ -21,9 +24,6 @@ const corsOptions = {
 // Then pass them to cors:
 server.use(cors(corsOptions));
 // ----------------
-
-const isProductionEnv = process.env.NODE_ENV === "production";
-const server = jsonServer.create();
 
 // For mocking the POST request, POST request won't make any changes to the DB in production environment
 const router = jsonServer.router(isProductionEnv ? clone(data) : "db.json", {
